@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  width: 100%;
+  height: 30rem;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn_container {
+  width: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bulb_btn {
+  width: 10rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #34dab4;
+  font-size: 30px;
+}
